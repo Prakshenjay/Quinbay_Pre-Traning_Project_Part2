@@ -36,6 +36,7 @@ function addListItem() {
                 updateList();
             })
             .catch(error => console.error('Error adding Todo : ', error))
+            
         todoInput.value = "";
     }
 };
